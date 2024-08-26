@@ -23,3 +23,12 @@ body {
 .darkergrotesque {
   font-family: "DarkerGrotesque-VariableFont_wght.ttf";
 }
+
+::selection {
+  background-color: #e1ccbd;
+  color: #000000;
+}
+::-webkit-selection {
+  background-color: #e1ccbd;
+  color: #000000;
+}
